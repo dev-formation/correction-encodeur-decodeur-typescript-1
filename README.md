@@ -1,6 +1,6 @@
 # encodeur-decodeur
 
-L'exercice suivant te permettra de faire quelques recherches sur le fonctionnement des méthode sur les chaines de caractère. Pour t'aider tu peux directement aller sur la [doc officiel](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String) 
+L'exercice suivant te permettra de faire quelques recherches sur le fonctionnement des méthodes sur les chaines de caractères. Pour t'aider tu peux directement aller sur la [doc officiel](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String) 
 
 Toutes les explications sont sur la page index.html de l'exercice.
 
