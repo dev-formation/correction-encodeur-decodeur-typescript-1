@@ -4,4 +4,4 @@ L'exercice suivant te permettra de faire quelques recherches sur le fonctionneme
 
 Toutes les explications sont sur la page index.html de l'exercice.
 
-Tu peux télécharger le repositorie et l'ouvrir sur Visual Studio Code. Tu pourras par la suite lancer ton serveur web (Live Server par exemple) pour visualiser les consignes.
+Tu peux télécharger le repository et l'ouvrir sur Visual Studio Code. Tu pourras par la suite lancer ton serveur web (Live Server par exemple) pour visualiser les consignes.
