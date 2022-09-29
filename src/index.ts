@@ -11,7 +11,6 @@ function encode() {}
  ******************************************************
  */
 
-const BTN_SUBMIT = document.querySelector('button');
 const FORM = document.querySelector('form');
 
 FORM?.addEventListener('submit', function (e: SubmitEvent) {
