@@ -16,10 +16,10 @@ const FORM = document.querySelector('form');
 
 FORM?.addEventListener('submit', function (e: SubmitEvent) {
   e.preventDefault();
-  const currentForm = e.target as HTMLFormElement;
+  const CURRENT_FORM = e.target as HTMLFormElement;
 
-  const INPUT_TEXT_TO_ENCODE = currentForm.textToEncode;
-  const INPUT_ENCODED_TEXT = currentForm.textEncoded;
+  const INPUT_TEXT_TO_ENCODE = CURRENT_FORM.textToEncode;
+  const INPUT_ENCODED_TEXT = CURRENT_FORM.textEncoded;
 
   const RESULT = encode(INPUT_TEXT_TO_ENCODE.value);
 
