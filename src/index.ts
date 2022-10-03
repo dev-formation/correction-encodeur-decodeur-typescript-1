@@ -2,7 +2,28 @@
  * Completer cette fonction
  *
  */
-function encode() {}
+function encode(messageToEncode: string): string | null {
+  let messageEncoded: string;
+  console.log('Le message à encoder est : ', messageToEncode);
+  if (messageToEncode.length > 0) {
+    // Encodage de mon message
+    /**
+     * 1 - Transformer ma string en tableau de string
+     * 2 - Inverser les éléments de mon tableau de string
+     * 3 - Transformer mon tableau de string en une string
+     */
+    const etape1: string[] = messageToEncode.split('');
+    console.log('Etape 1 : ', etape1);
+    const etape2: string[] = etape1.reverse();
+    console.log('Etape 2 : ', etape2);
+    const etape3: string = etape2.join('');
+    console.log('Etape 3 : ', etape3);
+    messageEncoded = etape3;
+    return messageEncoded;
+  } else {
+    return null;
+  }
+}
 
 /******************************************************
  * LE CODE CI-DESSOUS FAIT FONCTIONNER LA PAGE TU PEUX
