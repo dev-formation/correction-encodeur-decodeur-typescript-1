@@ -42,7 +42,8 @@ FORM?.addEventListener('submit', function (e: SubmitEvent) {
 
   /**
    * On vient expliquer le type de e.target pour pouvoir
-   * bénéficier des l'autocomplétion
+   * bénéficier de l'autocomplétion (accéder aux propriétés
+   * et méthodes de ce type d'objet)
    */
   const CURRENT_FORM = e.target as HTMLFormElement;
 
@@ -59,12 +60,12 @@ FORM?.addEventListener('submit', function (e: SubmitEvent) {
    * Ces lignes ci-dessous permettent aussi de récupérer le
    * premier champ texte mais on voit qu'on doit faire plus d'étapes
    */
-  const monPremierInput = document.getElementById('textToEncode');
-  if (monPremierInput) {
-    console.log('monPremierInput: ', monPremierInput);
-  } else {
-    console.log("Erreur durant la récupération de l'élément");
-  }
+  // const monPremierInput = document.getElementById('textToEncode');
+  // if (monPremierInput) {
+  //   console.log('monPremierInput: ', monPremierInput);
+  // } else {
+  //   console.log("Erreur durant la récupération de l'élément");
+  // }
 
   /**
    * Grâce à l'objet Formulaire récupéré via le déclenchement
